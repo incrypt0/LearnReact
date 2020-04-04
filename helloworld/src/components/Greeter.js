@@ -3,12 +3,12 @@ import React from "react";
 // function Greeter() {
 //     return <h1>Hi incrypt0</h1>
 // }
-const Greeter = props => {
-  console.log(props);
+const Greeter = (name, heroName) => {
+  console.log(name, heroName);
   return (
     <div>
-      <h1>Hello {props.name}</h1>
-      {props.children}
+      <h1> Hello {name} </h1>
+      {heroName}
     </div>
   );
 };
