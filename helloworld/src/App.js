@@ -1,16 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-import EventBind from './components/EventBind';
-import Counter from './components/Counter';
-
-
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
     <div className="App">
-    <EventBind></EventBind>
-    <Counter></Counter>
+      {/* <EventBind></EventBind>
+    <Counter></Counter> */}
+      <ParentComponent />
     </div>
   );
 }
