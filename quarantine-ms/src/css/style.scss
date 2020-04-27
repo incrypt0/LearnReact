@@ -1,0 +1,54 @@
+@import './fonts';
+
+* {
+    margin:0;
+    padding:0;
+    font-family: "Roboto";
+}
+.navbar{
+    width: 100%;
+    // border: 2px blue solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    .nav-container{
+        display: flex;
+        width: 100%;
+        background: rgb(203, 240, 255);
+       
+        a{
+            display: block;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            color: rgb(121, 55, 55);
+        }
+        .logo{
+            text-decoration: none;
+            flex:1;
+            font-weight: bold;
+            // border: 2px solid grey;
+            display: flex;
+            text-align:left;
+        }
+        .right-menu {
+            text-transform: capitalize;
+            text-decoration: none;
+            // border: 2px solid grey;
+            flex: 2;
+            display: flex;
+            justify-content: right;
+            // font-size: 2rem;
+            a{
+                display: block;
+                padding: 1rem 2rem;
+                text-decoration: none;
+                color: rgb(49, 31, 31),;
+                &:hover{
+                    background: whitesmoke;
+                }
+            }
+        }
+    }
+}
+
